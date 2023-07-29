@@ -18,9 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
     };
   
     const handleClick = (button: string) => {
-      // Handle different button types
       switch (button) {
-        case "Enter":
+        case "ENTER":
           calculate();
           break;
         case "del":
