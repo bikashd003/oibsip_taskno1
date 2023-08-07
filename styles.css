@@ -10,7 +10,6 @@ body {
   display: grid;
   background-color: #eaf5ff;
   height: 65vh;
-  width: 80%;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(6, 1fr);
   row-gap: 10px;
@@ -60,10 +59,16 @@ button {
 
 @media (max-width: 1220px) {
   .container {
-    width: 40%;
+    width: 60%;
+  }
+  button{
+    font-size: 1em;
+  }
+  .result{
+    font-size: 2rem;
   }
 }
-@media (max-width: 1920px){
+@media (min-width: 1900px){
   .container {
     width: 30%;
   }
